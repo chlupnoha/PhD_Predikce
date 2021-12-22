@@ -1,7 +1,7 @@
 import numpy as np
 
 
-class DataTransformator:
+class DataTransformer:
     @classmethod
     def sum_columns(cls, df, new_col, col_list):
         df[new_col] = df[col_list].sum(axis=1)
